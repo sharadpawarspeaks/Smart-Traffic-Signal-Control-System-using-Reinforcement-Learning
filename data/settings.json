@@ -1,0 +1,25 @@
+{
+  "arrival_rates": [
+    0.22,
+    0.2,
+    0.18,
+    0.16
+  ],
+  "traffic_preset": "Medium",
+  "min_green": 5,
+  "max_green": 35,
+  "yellow_duration": 2,
+  "learning_rate": 0.15,
+  "discount_factor": 0.92,
+  "initial_epsilon": 1.0,
+  "epsilon_min": 0.05,
+  "epsilon_decay": 0.995,
+  "weight_pass": 3.0,
+  "weight_wait": 0.2,
+  "weight_queue": 0.05,
+  "weight_switch": 0.4,
+  "weight_starve": 0.1,
+  "starvation_threshold": 40.0,
+  "simulation_speed": 1.0,
+  "random_seed": 42
+}
